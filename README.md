@@ -19,3 +19,5 @@ Modules are isolated: You can’t reach their internal resources directly.
 Use outputs to share data: Anything the root module needs from a module must be explicitly output.
 
 Good practice: Only expose what’s needed via outputs, keeping internal resources encapsulated.
+
+Backend should reside in the root only not in the module
